@@ -27,4 +27,14 @@
  * 2. on submit get form data and create user object. 
  * 3. on server: create user post mathod to revieve data on the backend
  * 4. on cliend side: set feth with post , headers, body. 
+ * 5. Make sure you return a json from the POST API.
+ * -----------------------------------------------------
+ * load data to the cliend side
+ * -----------------------------------------------------
+ * 1. Create a get API on the server side.
+ * 2. Create a Query Object.
+ * 3. collection.find (query)
+ * 4. Cursor.toArray() 
+ * 5. return the result  
+
 */ 
