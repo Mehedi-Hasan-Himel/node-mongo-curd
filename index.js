@@ -27,7 +27,7 @@ async function run() {
     app.post("/user", (req, res) => {
       const newUser = req.body;
       console.log("adding new user", newUser);
-      res.send({ result: "success" });
+      res.send({result:'success'});
     });
   } finally {
     // await client.close()
