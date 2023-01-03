@@ -20,7 +20,11 @@
  * ----------------------------------------------
  * 1. node mondodb crud  > fundamentals 
  * 2. create async run function
-
-
-
+ * ------------------------------------------------
+ * Integrate sending data from client to server
+ * ------------------------------------------------
+ * 1. Cliend side: create form 
+ * 2. on submit get form data and create user object. 
+ * 3. on server: create user post mathod to revieve data on the backend
+ * 4. on cliend side: set feth with post , headers, body. 
 */ 
